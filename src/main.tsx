@@ -7,7 +7,7 @@ import { ThemeProvider } from "./context/themeContext.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
-      <ThemeProvider defaultTheme="dark">
+      <ThemeProvider>
         <App />
       </ThemeProvider>
     </BrowserRouter>
