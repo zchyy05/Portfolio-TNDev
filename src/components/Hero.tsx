@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/imageWithFallback";
 import { images } from "../constants/images";
