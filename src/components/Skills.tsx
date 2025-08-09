@@ -6,6 +6,7 @@ export const Skills = () => {
     { name: "JavaScript/TypeScript", level: 95, category: "Frontend" },
     { name: "React/Vite.js", level: 90, category: "Frontend" },
     { name: "React Native (Expo)", level: 90, category: "Frontend" },
+    { name: "Next.js", level: 75, category: "Frontend" },
     { name: "CSS/Tailwind", level: 92, category: "Frontend" },
     { name: "Node.js", level: 88, category: "Backend" },
     { name: "Java", level: 60, category: "Backend" },

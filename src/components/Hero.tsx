@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown, Github, Linkedin } from "lucide-react";
+import { ArrowDown, Github, Linkedin, CheckCheck } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/imageWithFallback";
 import { images } from "../constants/images";
@@ -164,7 +164,9 @@ export function Hero() {
                 }}
                 className="absolute -bottom-4 -left-4 w-12 h-12 bg-secondary/80 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary/20"
               >
-                <span className="text-lg">💻</span>
+                <span className="text-lg">
+                  <CheckCheck />
+                </span>
               </motion.div>
             </div>
           </motion.div>

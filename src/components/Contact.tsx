@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useState, useRef } from "react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Lightbulb } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
@@ -211,8 +211,9 @@ export const Contact = () => {
                 </p>
 
                 <div className="p-6 bg-primary/10 rounded-lg">
-                  <p className="text-sm text-muted-foreground">
-                    💡 <strong>Quick tip:</strong> The more details you provide
+                  <p className="text-sm text-muted-foreground flex items-start justify-center gap-2">
+                    <Lightbulb className="w-8 h-8 text-yellow-500" />
+                    <strong>Quick tip:</strong> The more details you provide
                     about your project, the better I can understand how to help
                     you achieve your goals.
                   </p>

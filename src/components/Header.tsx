@@ -40,7 +40,7 @@ export const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-background/80 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+          : "bg-background/80 backdrop-blur-md"
       }`}
     >
       <div className="container mx-auto px-4 py-4">
@@ -114,7 +114,7 @@ export const Header = () => {
           transition={{ duration: 0.3 }}
           className="md:hidden overflow-hidden"
         >
-          <div className="py-4 space-y-4">
+          <div className="py-4 space-y-4 ">
             {navItems.map((item) => (
               <button
                 key={item.href}
